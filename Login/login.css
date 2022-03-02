@@ -95,3 +95,12 @@ li span {
 .links li:hover::after {
   width: 100%;
 }
+/*! --MAIN-- !*/
+main {
+  background: var(--body_color);
+}
+.container {
+  margin-left: 10rem;
+  position: relative;
+  background: var(--header_color);
+}
