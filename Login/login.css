@@ -129,7 +129,6 @@ body {
   margin-top: 6rem;
   position: relative;
   flex-direction: column;
-  align-content: space-between;
 }
 .logar span {
   font: 700 1.5rem 'Fredoka', sans-serif;
@@ -151,4 +150,26 @@ body {
   border: 2px solid var(--hovercolor);
   font: 700 1.5rem 'Fredoka', sans-serif;
   block-size: 2.5rem;
+}
+.logar input {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/** --BUTTONS-- **/
+.buttons {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.buttons input {
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  margin-left: 1rem;
+}
+.buttons input:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
 }

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS -->
     <link rel="stylesheet" href="../Login/login.css" />
+    <!-- JAVASCRIPT -->
+    <script src="../Login/loginscript.js"></script>
     <!-- FAVICON -->
     <link
       rel="shortcut icon"
@@ -60,12 +62,13 @@
         <h1>Faça seu login!</h1>
         <div class="logar">
           <span>Login</span>
-          <input type="text" class="logininput" maxlength="50" />
+          <input type="text" class="logininput" id="nome" maxlength="50" />
           <span>Senha</span>
-          <input type="password" class="password" maxlength="50" />
+          <input type="password" class="password" id="senha" maxlength="50" />
         </div>
         <div class="buttons">
-          <input type="button" value="Logar" class="loginbutton" />
+          <input type="submit" value="Logar" id="submit" class="loginbutton" />
+          <input type="button" value="Registrar" class="registerbutton" />
         </div>
       </div>
     </main>
