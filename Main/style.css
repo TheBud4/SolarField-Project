@@ -24,7 +24,6 @@ a {
   --headertextcolor: aliceblue;
   --footercolor: #241d0a;
 }
-
 /*! ----HEADER---- !*/
 header {
   height: var(--header-height);
@@ -124,8 +123,8 @@ main {
   width: 100%;
   background: var(--header_color);
   position: absolute;
-  top: -2rem;
-  left: 3rem;
+  top: -1rem;
+  left: 2rem;
   border-radius: 1rem;
 }
 /** --ITEM1 TEXT-- **/
@@ -166,8 +165,8 @@ main {
   width: 100%;
   background: var(--header_color);
   position: absolute;
-  top: -2rem;
-  left: -3rem;
+  top: -1rem;
+  left: -2rem;
   border-radius: 1rem;
 }
 /** --ITEM 2 TEXT-- **/

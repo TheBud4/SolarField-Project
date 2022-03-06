@@ -114,3 +114,56 @@ main {
   border-radius: 5%;
   align-content: space-between;
 }
+main h2 {
+  align-self: center;
+  margin-top: 2rem;
+  font: 600 1.3rem 'Fredoka', sans-serif;
+  color: var(--headertextcolor);
+}
+main span {
+  font: 700 1.5rem 'Fredoka', sans-serif;
+  color: var(--headertextcolor);
+}
+/** --IMPUTS-- **/
+
+.contact {
+  background: transparent;
+  background: var(--prymary0);
+  border-radius: 10px;
+  border: 2px solid var(--hovercolor);
+  font: 700 1rem 'Fredoka', sans-serif;
+  block-size: 2.5rem;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.observation {
+  background: transparent;
+  background: var(--prymary0);
+  border-radius: 10px;
+  border: 2px solid var(--hovercolor);
+  font: 700 1rem 'Fredoka', sans-serif;
+  block-size: 2.5rem;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+/** --BUTTON-- **/
+.button {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.button input {
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+.button input:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
