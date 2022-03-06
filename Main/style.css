@@ -111,6 +111,7 @@ li span {
 
 main {
   background: var(--body_color);
+  position: relative;
 }
 /*? --ITEM 1-- ?*/
 .section1 {
@@ -274,6 +275,12 @@ footer {
   display: flex;
   justify-content: space-between;
   height: var(--header-height);
+}
+.name {
+  margin-left: 102rem;
+  margin-right: auto;
+  margin-top: 3rem;
+  position: relative;
 }
 .name span {
   font: 500 1.2rem 'Fredoka', sans-serif;
