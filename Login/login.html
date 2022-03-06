@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS -->
     <link rel="stylesheet" href="../Login/login.css" />
-    <!-- JAVASCRIPT -->
-    <script src="../Login/loginscript.js"></script>
     <!-- FAVICON -->
     <link
       rel="shortcut icon"
@@ -64,11 +62,19 @@
           <input type="password" class="password" id="senha" maxlength="50" />
         </div>
         <div class="buttons">
-          <input type="submit" value="Logar" id="submit" class="loginbutton" />
+          <input
+            type="submit"
+            value="Logar"
+            id="submit"
+            onclick="login_validation()"
+            class="loginbutton"
+          />
           <input type="button" value="Registrar" class="registerbutton" />
         </div>
       </div>
     </main>
     <!-- /MAIN -->
   </body>
+  <!-- JAVASCRIPT -->
+  <script src="../Login/loginscript.js"></script>
 </html>
