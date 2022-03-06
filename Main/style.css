@@ -10,6 +10,9 @@ ul {
 a {
   text-decoration: none;
 }
+*::-webkit-scrollbar {
+  width: 12px;
+}
 
 /*! ----VARIABLES---- !*/
 :root {
@@ -23,6 +26,15 @@ a {
   --maintext: #4d3f1e;
   --headertextcolor: aliceblue;
   --footercolor: #241d0a;
+}
+/*! --SCROLLBAR-- !*/
+*::-webkit-scrollbar-track {
+  background: var(--header_color);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--hovercolor);
+  border-radius: 20px;
 }
 /*! ----HEADER---- !*/
 header {
@@ -257,7 +269,7 @@ main {
   margin-left: 2rem;
 }
 /*! --FOOTER-- !*/
-.footer {
+footer {
   background: var(--footercolor);
   display: flex;
   justify-content: space-between;

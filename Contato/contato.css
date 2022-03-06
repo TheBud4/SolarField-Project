@@ -123,6 +123,10 @@ main h2 {
 main span {
   font: 700 1.5rem 'Fredoka', sans-serif;
   color: var(--headertextcolor);
+  position: relative;
+  margin-left: 5rem;
+  margin-right: auto;
+  margin-top: 1rem;
 }
 /** --IMPUTS-- **/
 
@@ -133,6 +137,7 @@ main span {
   border: 2px solid var(--hovercolor);
   font: 700 1rem 'Fredoka', sans-serif;
   block-size: 2.5rem;
+  width: 40rem;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -147,6 +152,7 @@ main span {
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  width: 40rem;
 }
 /** --BUTTON-- **/
 .button {
